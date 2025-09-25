@@ -1,0 +1,5 @@
+<div class="chart-wrapper">
+  <h3 *ngIf="title" class="chart-title">{{ title }}</h3>
+  <div echarts [options]="options" class="chart-container"></div>
+  <p *ngIf="description" class="chart-description">{{ description }}</p>
+</div>
